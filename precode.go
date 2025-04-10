@@ -47,7 +47,7 @@ var tasks = map[string]Task{
 func main() {
 	r := chi.NewRouter()
 
-	// здесь регистрируйте ваши обработчики
+	// здесь регистрируйте ваши обработчики/
 	// ...
 	r.Get("/tasks", ListTasksHandler)
 	r.Post("/tasks", AddTaskHandler)
